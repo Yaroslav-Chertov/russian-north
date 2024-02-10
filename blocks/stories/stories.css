@@ -1,0 +1,17 @@
+.stories {
+    max-width: 984px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .stories {
+        max-width: 720px;
+        padding: 0 16px 32px 16px;
+        flex-direction: column;
+    }
+}

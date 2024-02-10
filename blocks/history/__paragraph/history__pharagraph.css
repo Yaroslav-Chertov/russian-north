@@ -1,0 +1,21 @@
+.history__paragraph {
+    margin: 0;
+    margin-bottom: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.history__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .history__paragraph {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
