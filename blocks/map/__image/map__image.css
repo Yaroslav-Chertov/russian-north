@@ -1,0 +1,6 @@
+.map__image {
+    max-width: 100%;
+    z-index: -2;
+    display: block;
+    animation: none;
+}

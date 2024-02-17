@@ -11,6 +11,12 @@
         padding: 36.5px 0;
         border-top: 3px solid rgba(255, 255, 255);
         border-left: none;
+        padding-bottom: 88px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .history {
+        padding-bottom: 64px;
     }
 }

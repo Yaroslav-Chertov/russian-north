@@ -22,7 +22,11 @@
 @import url(../blocks/history/__title/history__title.css);
 @import url(../blocks/history/__paragraph/history__pharagraph.css);
 
-@import url(../blocks/pattern/pattern.css);
-@import url(../blocks/pattern/__image/pattern__image.css);
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__subtitle/map__subtitle.css);
+@import url(../blocks/map/__image/map__image.css);
+
+@import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/grain/grain.css);
