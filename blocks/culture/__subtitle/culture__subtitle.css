@@ -1,0 +1,25 @@
+.culture__subtitle {
+    max-width: 640px;
+    margin: 0 0 32px 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .culture__subtitle {
+        margin: 0 0 56px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .culture__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 0 16px 0;
+    }
+}

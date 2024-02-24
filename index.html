@@ -14,8 +14,8 @@
     <header class="header">
         <img class="header__logo" src="./images/logo_horse.png" alt="Логотип в форме фигурки коня">
         <ul class="header__menu-list">
-            <li class="header__menu-item"><a class="header__menu-link" href="#">История</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#">Культура</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#stories">История</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#culture">Культура</a></li>
             <li class="header__menu-item"><a class="header__menu-link" href="#">Мифология</a></li>
         </ul>
     </header>
@@ -25,10 +25,10 @@
             <h1 class="lead__title">Русский Север</h1>
             <p class="lead__subtitle">Проект, посвящённый истории и&nbsp;культуре Русского Севера</p>
             <img class="lead__image" src="./images/wooden_artifact.png" alt="Фото деревянной прялки с резьбой">
-            <a href="#" class="lead__button">А где это?</a>
+            <a href="#map" class="lead__button">А где это?</a>
         </section>
 
-        <section class="stories">
+        <section class="stories" id="stories">
             <article class="history">
                 <img class="history__image" src="./images/history_one.png" alt="Биармия на фрагменте старой карты">
                 <h2 class="history__title">С&nbsp;чего все началось</h2>
@@ -50,21 +50,32 @@
             <article class="history">
                 <img class="history__image" src="./images/history_three.png"
                     alt="Фото старого деревянного дома с резными оконными наличниками">
-                <h2 class="history__title">Почему сохранилась культура</h2>
+                <h2 class="history__title">Сохранение культуры</h2>
                 <p class="history__paragraph">После Петра I&nbsp;транспортное и&nbsp;хозяйственное значение этого
-                    региона заметно ослабло. Это стало причиной своеобразной консервации всех сторон жизни
-                    населения. Сюда, в&nbsp;частности, бежали старообрядцы, благодаря чему Русский Север стал
+                    региона ослабло. Это стало причиной консервации всех сторон жизни
+                    населения. Сюда &nbsp; бежали старообрядцы, благодаря чему это место стало
                     заповедником старорусской
                     культуры.</p>
             </article>
         </section>
 
-        <section class="map">
+        <section class="map" id="map">
             <h2 class="map__title">Это здесь</h2>
             <p class="map__subtitle">Традиционно к&nbsp;Русскому Северу относят территории Архангельской, Мурманской
                 и&nbsp;Вологодской областей, Карелии, Коми и&nbsp;Ненецкого автономного округа
             </p>
             <img class="map__image" src="./images/map_sever.png" alt="Карта районов Русского Севера">
+        </section>
+
+        <section class="culture" id="culture">
+            <div class="culture__text">
+                <h2 class="culture__title">Культура</h2>
+                <p class="culture__subtitle">Именно Русский Север сберег для современников величие истории наших
+                    предков&nbsp;&mdash; их&nbsp;былины, сказы, песни, мастерство их&nbsp;рук
+                </p>
+            </div>
+            <img class="culture__image" src="./images/people.png" alt="Изображение спирали">
+            <figcaption class="culture__caption">Молодые крестьянки у&nbsp;реки Шексны. Начало XX&nbsp;века</figcaption>
         </section>
 
     </main>

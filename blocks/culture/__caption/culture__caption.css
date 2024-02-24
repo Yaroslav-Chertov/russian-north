@@ -1,0 +1,23 @@
+.culture__caption {
+    margin: 8px 0 0 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .culture__caption {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .culture__caption {
+        margin-left: 16px;
+    }
+}

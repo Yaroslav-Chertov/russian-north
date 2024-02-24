@@ -1,15 +1,12 @@
-.lead__title {
-    max-width: 720px;
-    margin: 0 0 32px 0;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
+.culture__title {
     font-weight: 900;
-    font-size: 132px;
-    line-height: 140px;
+    font-size: 90px;
+    line-height: 110px;
     text-align: center;
     align-self: center;
     text-transform: uppercase;
-    background: linear-gradient(-45deg, #dde2d5, #d09d6a, #d37204, #cdb460);
+    margin: 0 0 32px 0;
+    background: linear-gradient(-45deg, #dde2d5, #a06517, #c02fa8, #c92e23);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     background-clip: text;
@@ -18,14 +15,8 @@
     background-size: 400% auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead__title {
-        margin: 0 24px 32px 24px;
-    }
-}
-
 @media screen and (max-width: 767px) {
-    .lead__title {
+    .culture__title {
         max-width: 720px;
         margin: 0 16px 16px 16px;
         font-size: 56px;
