@@ -7,7 +7,7 @@
     align-self: center;
     text-transform: uppercase;
     margin: 0 0 32px 0;
-    background: linear-gradient(-45deg, #dde2d5, #1787a0, #57a6ef, #4099d8);
+    background: linear-gradient(-45deg, #c8e39d, #959cd5, #57a6ef, #063a5f);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     background-clip: text;

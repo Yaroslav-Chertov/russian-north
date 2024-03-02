@@ -22,16 +22,15 @@
 @import url(../blocks/history/__title/history__title.css);
 @import url(../blocks/history/__paragraph/history__pharagraph.css);
 
-@import url(../blocks/map/map.css);
-@import url(../blocks/map/__title/map__title.css);
-@import url(../blocks/map/__subtitle/map__subtitle.css);
-@import url(../blocks/map/__image/map__image.css);
-
 @import url(../blocks/culture/culture.css);
-@import url(../blocks/culture/__text/culture__text.css);
 @import url(../blocks/culture/__title/culture__title.css);
 @import url(../blocks/culture/__subtitle/culture__subtitle.css);
 @import url(../blocks/culture/__image/culture__image.css);
 @import url(../blocks/culture/__caption/culture__caption.css);
+
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__subtitle/map__subtitle.css);
+@import url(../blocks/map/__image/map__image.css);
 
 @import url(../blocks/grain/grain.css);
