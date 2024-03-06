@@ -9,7 +9,7 @@
     text-align: center;
     align-self: center;
     text-transform: uppercase;
-    background: linear-gradient(-45deg, #dde2d5, #d09d6a, #d37204, #cdb460);
+    background: linear-gradient(-45deg, #cbcbcb, #687cb6, #8d9eea, #ffffff);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     background-clip: text;
