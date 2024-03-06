@@ -21,6 +21,6 @@
 @media screen and (max-width: 767px) {
     .map {
         padding-bottom: 64px;
-        margin: 0 16px 16px 16px;
+        margin: 0 16px 0 16px;
     }
 }

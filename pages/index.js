@@ -153,3 +153,9 @@ class TextScramble {
         return this.chars[Math.floor(Math.random() * this.chars.length)];
     }
 }
+
+const burger = document.querySelector('.header__burger-btn');
+
+burger.addEventListener('click', () => {
+    burger.classList.toggle('opened');
+});
