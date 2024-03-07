@@ -8,7 +8,16 @@
 
 @media screen and (max-width: 767px) {
     .header__menu-list {
-        flex-direction: column;
-        display: none;
+        display: block;
+        position: absolute;
+        left: -192px;
+        top: 0;
+        background-color: #52599B;
+        padding: 75px 20px 20px 20px;
+    }
+
+    .header__menu-list.opened {
+        transform: translateX(100%);
+        transition: 0.3s;
     }
 }
