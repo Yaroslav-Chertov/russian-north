@@ -8,6 +8,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     align-self: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -19,5 +20,6 @@
 @media screen and (max-width: 767px) {
     .culture__caption {
         margin-left: 16px;
+    
     }
 }

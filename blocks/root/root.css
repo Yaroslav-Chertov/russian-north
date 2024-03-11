@@ -11,28 +11,30 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     position: relative;
+    cursor: none;
 }
 
 /* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
-    width: 24px; /* ширина для вертикального скролла */
-    height: 8px; /* высота для горизонтального скролла */
-    background-color: #c1c3c5;
+    width: 12px;
+    /* ширина для вертикального скролла */
+    height: 8px;
+    /* высота для горизонтального скролла */
+    background-color: rgb(3, 34, 50);
 }
 
 /* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
-    background-color: #302e2f;
+    background-color: #52599B;
     border-radius: 9em;
     box-shadow: inset 1px 1px 10px #f3faf7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #1d1e1f;
+    background-color: #043c73;
 }
 
 /* Стрелки */
-
 ::-webkit-scrollbar-button:vertical:start:decrement {
     background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
         linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
@@ -62,4 +64,32 @@
         linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
         linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
     background-color: #f6f8f4;
+}
+
+/* курсор */
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(134, 198, 246);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+#cursor-border {
+    --size: 50px;
+    position: fixed;
+    top: calc(var(--size) / -2);
+    left: calc(var(--size) / -2);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px white;
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+        height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
 }
