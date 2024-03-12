@@ -35,7 +35,7 @@ class Grain {
         this.patternCanvas.height = this.patternSize;
         this.patternCtx = this.patternCanvas.getContext('2d');
         this.patternData = this.patternCtx.createImageData(this.patternSize, this.patternSize);
-        this.patternPixelDataLength = this.patternSize * this.patternSize * 4; // rgba = 4
+        this.patternPixelDataLength = this.patternSize * this.patternSize * 4;
 
         this.resize = this.resize.bind(this);
         this.loop = this.loop.bind(this);
