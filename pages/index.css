@@ -24,18 +24,20 @@
 @import url(../blocks/history/__title/history__title.css);
 @import url(../blocks/history/__paragraph/history__pharagraph.css);
 
-@import url(../blocks/culture/culture.css);
-@import url(../blocks/culture/__title/culture__title.css);
-@import url(../blocks/culture/__subtitle/culture__subtitle.css);
-@import url(../blocks/culture/__image/culture__image.css);
-@import url(../blocks/culture/__caption/culture__caption.css);
-
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__title/map__title.css);
 @import url(../blocks/map/__subtitle/map__subtitle.css);
 @import url(../blocks/map/__image/map__image.css);
 
-
+@import url(../blocks/culture/culture.css);
+@import url(../blocks/culture/__title/culture__title.css);
+@import url(../blocks/culture/__subtitle/culture__subtitle.css);
+@import url(../blocks/culture/__image/culture__image.css);
+@import url(../blocks/culture/__caption/culture__caption.css);
+@import url(../blocks/culture/__blocks/culture__blocks.css);
+@import url(../blocks/culture/__block/culture__block.css);
+@import url(../blocks/culture/__block/__block-title/culture__block-title.css);
+@import url(../blocks/culture/__block/__block-paragraph/culture__block-paragraph.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
