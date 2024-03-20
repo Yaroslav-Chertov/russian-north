@@ -6,7 +6,7 @@
 
 Проект, посвящённый истории и культуре Русского Севера.
 
-![](./images/Screenshot.png)
+![](./images/Screenshot_readme.png)
 
 Функционал:
 
