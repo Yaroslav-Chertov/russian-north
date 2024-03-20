@@ -1,12 +1,12 @@
-.lead__image {
+.main__image {
     width: 100%;
-    display: none;
+    display: block;
     z-index: -2;
     position: absolute;
 }
 
 @media screen and (max-width: 768px) {
-    .lead__image {
-        display: block;
+    .main__image {
+        display: none;
     }
 }
