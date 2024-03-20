@@ -2,3 +2,9 @@
     color: #FFFFFF;
     margin: 10px 0 0 0;
 }
+
+@media screen and (max-width: 320px) {
+    .culture__block-paragraph {
+        font-size: 14px;
+    }
+}

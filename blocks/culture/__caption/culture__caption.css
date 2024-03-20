@@ -20,6 +20,6 @@
 @media screen and (max-width: 767px) {
     .culture__caption {
         margin-left: 16px;
-    
+        font-size: 8px;
     }
 }
