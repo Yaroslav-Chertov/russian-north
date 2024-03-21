@@ -1,0 +1,12 @@
+.lead__image {
+    width: 100%;
+    display: none;
+    z-index: -4;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        display: block;
+    }
+}

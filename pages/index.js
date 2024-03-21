@@ -24,7 +24,7 @@ class Grain {
         this.patternScaleX = 1;
         this.patternScaleY = 1;
         this.patternRefreshInterval = 3;
-        this.patternAlpha = 15;
+        this.patternAlpha = 10;
 
         this.canvas = el;
         this.ctx = this.canvas.getContext('2d');

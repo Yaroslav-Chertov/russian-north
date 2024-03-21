@@ -1,7 +1,7 @@
 .main__image {
     width: 100%;
     display: block;
-    z-index: -2;
+    z-index: -4;
     position: absolute;
 }
 
