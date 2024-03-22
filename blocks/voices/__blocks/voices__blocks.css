@@ -1,0 +1,13 @@
+.voices__blocks {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .voices__blocks {
+        grid-template-columns: minmax(100px, 1fr);
+    }
+}

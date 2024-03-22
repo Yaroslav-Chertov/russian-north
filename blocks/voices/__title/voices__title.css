@@ -1,0 +1,20 @@
+.voices__title {
+    max-width: 640px;
+    margin: 0 0 32px 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .voices__title {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 0 16px 0;
+    }
+}

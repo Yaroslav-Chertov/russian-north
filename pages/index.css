@@ -41,6 +41,12 @@
 @import url(../blocks/culture/__block/__block-title/culture__block-title.css);
 @import url(../blocks/culture/__block/__block-paragraph/culture__block-paragraph.css);
 
+@import url(../blocks/voices/voices.css);
+@import url(../blocks/voices/__title/voices__title.css);
+@import url(../blocks/voices/__blocks/voices__blocks.css);
+@import url(../blocks/voices/__block/voices__block.css);
+@import url(../blocks/voices/__block-title/voices__block-title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 

@@ -1,0 +1,21 @@
+.voices {
+    margin: 0;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 92px;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .voices {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .voices {
+        padding-bottom: 64px;
+        margin: 0 16px 0 16px;
+    }
+}

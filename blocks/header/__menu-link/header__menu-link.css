@@ -11,9 +11,9 @@
 
 .header__menu-link:hover {
     opacity: .8;
-    transform: rotate(3deg) translate(5px);
     transition: 0.3s;
     cursor: none;
+    color: #474E8E;
 }
 
 @media screen and (max-width: 767px) {

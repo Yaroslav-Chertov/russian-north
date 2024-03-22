@@ -1,0 +1,14 @@
+.voices__block-title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .voices__block-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
