@@ -12,10 +12,51 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     menuList.classList.remove("opened");
 }));
 
+//аудио
+const karelianAudio = document.getElementById("karelianAudio");
+const iconKarelian = document.getElementById("iconKarelian");
+
+const vologdaAudio = document.getElementById("vologdaAudio");
+const iconVologda = document.getElementById("iconVologda");
+
+const pomorsAudio = document.getElementById("pomorsAudio");
+const iconPomors = document.getElementById("iconPomors");
+
+iconKarelian.onclick = function () {
+    if (karelianAudio.paused) {
+        karelianAudio.play();
+        iconKarelian.src = "./images/pause.png";
+    }
+    else {
+        karelianAudio.pause();
+        iconKarelian.src = "./images/Karelian.png";
+    }
+};
+
+iconVologda.onclick = function () {
+    if (vologdaAudio.paused) {
+        vologdaAudio.play();
+        iconVologda.src = "./images/pause.png";
+    }
+    else {
+        vologdaAudio.pause();
+        iconVologda.src = "./images/Vologda.png";
+    }
+};
+
+iconPomors.onclick = function () {
+    if (pomorsAudio.paused) {
+        pomorsAudio.play();
+        iconPomors.src = "./images/pause.png";
+    }
+    else {
+        pomorsAudio.pause();
+        iconPomors.src = "./images/Pomors.png";
+    }
+};
+
 //эффект шума на фоне
 'use strict';
-
-console.clear();
 
 class Grain {
     constructor(el) {

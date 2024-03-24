@@ -46,6 +46,9 @@
 @import url(../blocks/voices/__blocks/voices__blocks.css);
 @import url(../blocks/voices/__block/voices__block.css);
 @import url(../blocks/voices/__block-title/voices__block-title.css);
+@import url(../blocks/voices/__block-audio/voices__block-audio.css);
+@import url(../blocks/voices/__icon-play/voices__icon-play.css);
+@import url(../blocks/voices/__block-subtitle/voices__block-subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);

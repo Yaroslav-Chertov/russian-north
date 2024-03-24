@@ -130,20 +130,47 @@
         </section>
 
         <section class="voices">
-            <h2 class="voices__title">Послушать Север</h2>
+            <h2 class="voices__title">Послушай Север</h2>
             <div class="voices__blocks">
                 <article class="voices__block">
-                    <h2 class="voices__block-title">Как говорят Поморы</h2>
-                </article>
-
-                <article class="voices__block">
                     <h2 class="voices__block-title">Карельский язык</h2>
+                    <div class="voices__block-audio">
+                        <img class="voices__icon-play" src="./images/Karelian.png" alt="Герб Карелии"
+                            data-cursor="pointer" id="iconKarelian">
+                        <p class="voices__block-subtitle">Нажми на&nbsp;значок, чтобы послушать</p>
+                    </div>
                 </article>
 
                 <article class="voices__block">
                     <h2 class="voices__block-title">Вологодский говор</h2>
+                    <div class="voices__block-audio">
+                        <img class="voices__icon-play" src="./images/Vologda.png" alt="Герб Вологодской области"
+                            data-cursor="pointer" id="iconVologda">
+                        <p class="voices__block-subtitle">Нажми на&nbsp;значок, чтобы послушать</p>
+                    </div>
+                </article>
+
+                <article class="voices__block">
+                    <h2 class="voices__block-title">Поморский говор</h2>
+                    <div class="voices__block-audio">
+                        <img class="voices__icon-play" src="./images/Pomors.png" alt="Герб Архангельской области"
+                            data-cursor="pointer" id="iconPomors">
+                        <p class="voices__block-subtitle">Нажми на&nbsp;значок, чтобы послушать</p>
+                    </div>
                 </article>
             </div>
+
+            <audio id="karelianAudio">
+                <source src="./audio/Karelian.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="vologdaAudio">
+                <source src="./audio/Vologda.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="pomorsAudio">
+                <source src="./audio/Pomors.mp3" type="audio/mp3">
+            </audio>
         </section>
     </main>
 

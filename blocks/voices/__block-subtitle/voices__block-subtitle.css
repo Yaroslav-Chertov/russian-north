@@ -1,0 +1,14 @@
+.voices__block-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+    .voices__block-subtitle {
+        font-size: 14px;
+    }
+}
